@@ -1,18 +1,29 @@
-Delphi - A Quiz App
+# Delphi - A Quiz App
+
 This is a simple quiz portal that allows the user to register and take timed quizzes on various subjects.
 
-Installations
+## Installations
+
 clone the repo and navigate into the delphi folder and run the following commands:
+
+```bash
 $ sudo mongod
 $ cd backend
 $ npm install 
 $ npm start
+```
 Open a new terminal window/tab and navigate into delphi folder, then run these next set of commands:
+
+```bash
 $ cd frontend
 $ npm install
 $ npm start
+```
 Your app will now run on port 3000
+
 Incase of error, check for the following dependencies:
+
+```bash
 $ npm install --save "react-helmet"
 $ npm install --save "react-router-dom"
 $ npm install --save "react-dom"
@@ -23,32 +34,37 @@ $ npm install --save "@mdi/font"
 $ npm install --save “react-bootstrap”
 $ npm install --save “react”
 $ npm install node-sass@4.14.1
+```
 
-Usage
+## Usage
 
-As a student
+### As a student
+- Register with your email and a password, and login to see quizzes
+- Click on subject of interest and pay to proceed to the instructions page
+- Every attempt is paid, so do not pay unless you wish to start the quiz
+- Read the instructions before attempting the quiz
+- Your results will be displayed when it ends
 
-Register with your email and a password, and login to see quizzes
-Click on subject of interest and pay to proceed to the instructions page
-Every attempt is paid, so do not pay unless you wish to start the quiz
-Read the instructions before attempting the quiz
-Your results will be displayed when it ends
 
-
-Contributing
-
-To add quizzes to this portal
-
-create a .js file in fronted components following format of other files, and give appropriate paths and details
-
+## Contributing
+### To add quizzes to this portal
+- create a <subname>.js file in fronted components following format of other files, and give appropriate paths and details
+```js
 import physics from './img/physics.jpeg';
+```
+```js
 handler: function (response) {
 	alert(response.razorpay_payment_id)
 	alert(response.razorpay_order_id)
         alert(response.razorpay_signature)
         history.push('/exam/Physics/instructions')
 },
+```
+```js
 export default withRouter(Physics);
+```
+
+```html
 <li>
     <span className="title-span">Exam Name : </span>
     <span className="info-span" style={{color:"rgb(77,77,77)"}}>Physics Test</span>
@@ -62,9 +78,10 @@ export default withRouter(Physics);
     <span className="info-span" style={{color:"rgb(77,77,77)"}}>Physics</span>
 </li>
 
+```
+- create a <subname>.json file in Questions folder in components, and add questions following format of other *.json files
 
-create a .json file in Questions folder in components, and add questions following format of other *.json files
-
+```
      {
          "question": "Which among the following colors lights has the maximum energy",
          "optionA": "Violet",
@@ -73,18 +90,14 @@ create a .json file in Questions folder in components, and add questions followi
          "optionD": "Blue",
          "answer": "Violet"               
      },
-
-Similarly, update and add a directory in exams component under subject name, and add appropriate js files following format
-
+```
+- Similarly, update and add a directory in exams component under subject name, and add appropriate js files following format
+```bash
 QuizInstructions.js  Quiz.js  QuizSummary.js
+```
+- Add images if any in img under components
 
+- Now run the app again to check if it is functional
 
-Add images if any in img under components
-
-
-Now run the app again to check if it is functional
-
-
-
-License
+## License
 Unlicensed
