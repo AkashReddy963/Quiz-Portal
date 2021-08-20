@@ -1,0 +1,42 @@
+[
+        {
+            "question": "Which among the following colors lights has the maximum energy",
+            "optionA": "Violet",
+            "optionB": "Red",
+            "optionC": "Green",
+            "optionD": "Blue",
+            "answer": "Violet"               
+        },
+        {
+            "question": "The speed of light will be minimum while passing through ________ ",
+            "optionA": "water",
+            "optionB": "vaccum",
+            "optionC": "air",
+            "optionD": "glass",
+            "answer": "glass"               
+        },
+        {
+            "question": "The units of power are defined as ________",
+            "optionA": "Joules",
+            "optionB": "Newtons",
+            "optionC": "Joules per meter",
+            "optionD": "Watts",
+            "answer": "Watts"               
+        },
+        {
+            "question": "Power is defined as ________",
+            "optionA": "Work per unit length",
+            "optionB": "Force per unit length",
+            "optionC": "Work times time",
+            "optionD": "Work per unit time",
+            "answer": "Work per unit time"               
+        },
+        {
+            "question": "Kinetic energy is ________",
+            "optionA": "A scalar",
+            "optionB": "Dimensionless",
+            "optionC": "A vector",
+            "optionD": "None of the above",
+            "answer": "A scalar"               
+        }
+]

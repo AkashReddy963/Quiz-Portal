@@ -1,0 +1,42 @@
+[
+        {
+            "question": "What is the capital of India?",
+            "optionA": "Hyderabad",
+            "optionB": "New Delhi",
+            "optionC": "Jammu and Kashmir",
+            "optionD": "Madras",
+            "answer": "New Delhi"               
+        },
+        {
+            "question": "In which year First World War took place?",
+            "optionA": "1914",
+            "optionB": "1919",
+            "optionC": "1939",
+            "optionD": "None of the above",
+            "answer": "1914"               
+        },
+        {
+            "question": "Give me blood and I will give you freedom!- Who quoted this?",
+            "optionA": "Subhash Chandra Bose",
+            "optionB": "Mahatma Gandhi Ji",
+            "optionC": "Bhagat Singh",
+            "optionD": "Sarojini Naidu",
+            "answer": "Subhash Chandra Bose"               
+        },
+        {
+            "question": "Who wrote the book 'Mein Kamph'?",
+            "optionA": "Mahatma Gandhiji",
+            "optionB": "Joseph Stalin",
+            "optionC": "Eva Braun",
+            "optionD": "Adolf Hitler",
+            "answer": "Adolf Hitler"               
+        },
+        {
+            "question": "Which is the biggest continent from below?",
+            "optionA": "Asia",
+            "optionB": "South America",
+            "optionC": "Australia",
+            "optionD": "Africa",
+            "answer": "Asia"               
+        }
+]

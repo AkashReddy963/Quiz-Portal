@@ -1,0 +1,42 @@
+[
+        {
+            "question": "How many consonants are there in the English alphabet?",
+            "optionA": "26",
+            "optionB": "21",
+            "optionC": "5",
+            "optionD": "none of the above",
+            "answer": "21"               
+        },
+        {
+            "question": "What grows quicker - hair or toenails?",
+            "optionA": "Hair",
+            "optionB": "Toenails",
+            "optionC": "Both",
+            "optionD": "None of the above",
+            "answer": "Hair"               
+        },
+        {
+            "question": "What is the next number in the following sequence - 7, 14, 21, 28?",
+            "optionA": "35",
+            "optionB": "49",
+            "optionC": "53",
+            "optionD": "30",
+            "answer": "35"               
+        },
+        {
+            "question": "Mary is only a daughter of Paramesh. Paramesh's daughter's son is Rudolff. What's the relation of Rudolff to Paramesh?",
+            "optionA": "Grand Son",
+            "optionB": "Son",
+            "optionC": "Father",
+            "optionD": "None of the above",
+            "answer": "Grand Son"               
+        },
+        {
+            "question": "What is the square root of 144?",
+            "optionA": "13",
+            "optionB": "10",
+            "optionC": "14",
+            "optionD": "12",
+            "answer": "12"               
+        }
+]

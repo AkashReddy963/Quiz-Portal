@@ -1,0 +1,41 @@
+[
+        {   "question": "NaOH + HCl ---> ________ + ________?",
+            "optionA": "NaCl + H2O",
+            "optionB": "NaCl + HO2",
+            "optionC": "NaCl + OH2",
+            "optionD": "none of the above",
+            "answer": "NaCl + H2O"               
+        },
+        {
+            "question": "Symbol of Potassium is ________",
+            "optionA": "Na",
+            "optionB": "Cl",
+            "optionC": "H",
+            "optionD": "K",
+            "answer": "K"               
+        },
+        {
+            "question": "Caustic Soda formula is ________ ",
+            "optionA": "H2SO4",
+            "optionB": "Na2CO3",
+            "optionC": "Ca(OH)2",
+            "optionD": "NaOH",
+            "answer": "NaOH"               
+        },
+        {
+            "question": "What is the atomic number of carbon?",
+            "optionA": "2",
+            "optionB": "6",
+            "optionC": "12",
+            "optionD": "14",
+            "answer": "6"               
+        },
+        {
+            "question": "Which of the following is a noble gas?",
+            "optionA": "Nitrogen",
+            "optionB": "Oxygen",
+            "optionC": "Argon",
+            "optionD": "Carbondioxide",
+            "answer": "Argon"               
+        }
+]
